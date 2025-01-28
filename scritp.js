@@ -6,6 +6,6 @@ document.getElementById("mudarCor").addEventListener('click', function () {
 
   document.body.style.backgroundColor = "#" + corAleatoria;
 
-  document.getElementById("corHexadecimal").textContent = "Cor atual: #" + corAleatoria;
+  document.getElementById("corHexadecimal").textContent = "Current Color: #" + corAleatoria;
 });
 
